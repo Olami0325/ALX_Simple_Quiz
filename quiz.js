@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function (){
         const correctAnswer = "4";
         const userAnswer = document.querySelector('input[name="quiz"]:checked').value;
 
-        if(userAnswer === correctAnswer) {
+        if (userAnswer === correctAnswer) {
         document.getElementById('feedback').textContent = "correct! Well done."
         }else{
         document.getElementById('feedback').textContent = "That's Incorrect. Try again!"
